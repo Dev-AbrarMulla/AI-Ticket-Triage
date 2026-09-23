@@ -1,6 +1,6 @@
 # AI Support Ticket Triage Pipeline
 
-An end-to-end, replayable customer support ticket triage engine powered by Groq LLMs (`llama-3.1-8b-instant`, `llama3-70b-8192`). The system ingests local customer support tickets, cleans and preprocesses text, classifies tickets into categories and urgency levels, drafts customer responses, and routes low-confidence or high-risk cases to a human review queue.
+An end-to-end, replayable customer support ticket triage engine powered by openai/gpt-oss-20b. The system ingests local customer support tickets, cleans and preprocesses text, classifies tickets into categories and urgency levels, drafts customer responses, and routes low-confidence or high-risk cases to a human review queue.
 
 ---
 
