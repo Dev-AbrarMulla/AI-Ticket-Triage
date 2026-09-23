@@ -1,0 +1,50 @@
+[
+  {
+    "ticket_id": "TCK-101",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "You can update the billing address in the dashboard by going to Settings \u2192 Billing \u2192 Company Address. Let us know if you need further help!"
+  },
+  {
+    "ticket_id": "TCK-102",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "Could you provide more details about the issue?"
+  },
+  {
+    "ticket_id": "TCK-103",
+    "routed_to": "HUMAN_REVIEW",
+    "routing_reason": "Critical urgency auto-flagged",
+    "final_response": "[DRAFT FOR AGENT REVIEW]: We\u2019re aware of the outage and are working to restore service as quickly as possible."
+  },
+  {
+    "ticket_id": "TCK-104",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "Sure, we can help reset your 2FA. Please verify your identity by providing the last 4 digits of your phone number and a recent transaction ID, and we\u2019ll guide you through the recovery process."
+  },
+  {
+    "ticket_id": "TCK-105",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "Thanks for the suggestion! We\u2019re adding an export option to the dashboard soon\u2014stay tuned for updates."
+  },
+  {
+    "ticket_id": "TCK-106",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "We apologize for the duplicate charge. We'll investigate and issue a refund promptly."
+  },
+  {
+    "ticket_id": "TCK-107",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "We\u2019re investigating the 403 error on your webhook endpoint. Please verify your API key and endpoint permissions, and let us know if you need further assistance."
+  },
+  {
+    "ticket_id": "TCK-108",
+    "routed_to": "AUTOMATED",
+    "routing_reason": null,
+    "final_response": "Sure, we can cancel your trial and process a refund. Regarding the theme, we can change it to a lighter color for better readability."
+  }
+]

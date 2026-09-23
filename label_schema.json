@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "confidence_threshold": 0.75,
+  "categories": [
+    {
+      "name": "BILLING",
+      "description": "Payment issues, invoices, charges, subscription updates, or refund requests."
+    },
+    {
+      "name": "TECHNICAL",
+      "description": "Bugs, error codes, performance degradation, integration issues, or downtime."
+    },
+    {
+      "name": "ACCOUNT",
+      "description": "Password resets, multi-factor authentication, team member permissions, or access control."
+    },
+    {
+      "name": "FEATURE_REQUEST",
+      "description": "Feedback, suggestions, or requests for non-existent product features."
+    },
+    {
+      "name": "OTHER",
+      "description": "Inquiries that do not clearly fit into any existing category."
+    }
+  ],
+  "urgency_levels": [
+    "LOW",
+    "MEDIUM",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "routing_rules": {
+    "auto_flag_critical": true,
+    "require_human_below_confidence": 0.75
+  }
+}

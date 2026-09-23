@@ -1,0 +1,82 @@
+[
+  {
+    "ticket_id": "TCK-101",
+    "predicted_category": "BILLING",
+    "predicted_urgency": "LOW",
+    "model_confidence": 0.98,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-102",
+    "predicted_category": "TECHNICAL",
+    "predicted_urgency": "MEDIUM",
+    "model_confidence": 0.8,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-103",
+    "predicted_category": "TECHNICAL",
+    "predicted_urgency": "CRITICAL",
+    "model_confidence": 0.95,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "HUMAN_REVIEW",
+    "has_routing_flag": true
+  },
+  {
+    "ticket_id": "TCK-104",
+    "predicted_category": "ACCOUNT",
+    "predicted_urgency": "HIGH",
+    "model_confidence": 0.95,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-105",
+    "predicted_category": "FEATURE_REQUEST",
+    "predicted_urgency": "LOW",
+    "model_confidence": 0.92,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-106",
+    "predicted_category": "BILLING",
+    "predicted_urgency": "HIGH",
+    "model_confidence": 0.97,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-107",
+    "predicted_category": "TECHNICAL",
+    "predicted_urgency": "HIGH",
+    "model_confidence": 0.95,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  },
+  {
+    "ticket_id": "TCK-108",
+    "predicted_category": "BILLING",
+    "predicted_urgency": "MEDIUM",
+    "model_confidence": 0.92,
+    "threshold_applied": 0.75,
+    "passed_threshold": true,
+    "routed_destination": "AUTOMATED",
+    "has_routing_flag": false
+  }
+]

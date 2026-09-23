@@ -1,0 +1,82 @@
+[
+  {
+    "call_id": "CALL-TCK-101",
+    "ticket_id": "TCK-101",
+    "timestamp": "2026-09-23T19:16:48.498244+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 984.65,
+    "prompt_payload": "Subject: How do I update our team's billing address?\nBody: Hi support, we recently moved offices. Where in the dashboard can I change the company billing address for our monthly PDF receipts?",
+    "raw_response": "{\"category\":\"BILLING\",\"urgency\":\"LOW\",\"confidence\":0.98,\"suggested_reply\":\"You can update the billing address in the dashboard by going to Settings \u2192 Billing \u2192 Company Address. Let us know if you need further help!\",\"reasoning\":\"The user is asking how to change the company billing address for monthly PDF receipts, which is a billing-related request. The issue is routine and not time-sensitive, so the urgency is low.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-102",
+    "ticket_id": "TCK-102",
+    "timestamp": "2026-09-23T19:16:49.197468+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 699.19,
+    "prompt_payload": "Subject: Strange issue\nBody: It isn't working right. Fix it please.",
+    "raw_response": "{\"category\":\"TECHNICAL\",\"urgency\":\"MEDIUM\",\"confidence\":0.8,\"suggested_reply\":\"Could you provide more details about the issue?\",\"reasoning\":\"The ticket describes a problem with the product not working correctly, which aligns with a technical issue. No billing, account, or feature request details are present, so TECHNICAL is the best fit. The urgency is set to MEDIUM because the user requests a fix but does not indicate a critical failure.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-103",
+    "ticket_id": "TCK-103",
+    "timestamp": "2026-09-23T19:16:49.461728+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 264.22,
+    "prompt_payload": "Subject: EMERGENCY: Production database non-responsive across all regions\nBody: All API requests are returning 500 server errors. Our entire system is down and customers cannot access their data.",
+    "raw_response": "{\"category\":\"TECHNICAL\",\"urgency\":\"CRITICAL\",\"confidence\":0.95,\"suggested_reply\":\"We\u2019re aware of the outage and are working to restore service as quickly as possible.\",\"reasoning\":\"The ticket reports a production database outage causing 500 errors across all regions, indicating a critical technical failure that impacts all customers.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-104",
+    "ticket_id": "TCK-104",
+    "timestamp": "2026-09-23T19:16:50.105844+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 644.08,
+    "prompt_payload": "Subject: Locked out after changing phones - 2FA reset\nBody: I upgraded my phone yesterday and lost access to my Google Authenticator app. I can no longer log in with 2FA. Can someone help reset my multi-factor authentication on account admin@company.com?",
+    "raw_response": "{\"category\":\"ACCOUNT\",\"urgency\":\"HIGH\",\"confidence\":0.95,\"suggested_reply\":\"Sure, we can help reset your 2FA. Please verify your identity by providing the last 4 digits of your phone number and a recent transaction ID, and we\u2019ll guide you through the recovery process.\",\"reasoning\":\"The user is unable to log in due to lost 2FA access after changing phones, which is a classic account\u2011related issue involving multi\u2011factor authentication. This requires prompt assistance, so the urgency is set to HIGH.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-105",
+    "ticket_id": "TCK-105",
+    "timestamp": "2026-09-23T19:16:51.135264+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 1029.39,
+    "prompt_payload": "Subject: Feature Request: Export analytics data to CSV / Excel\nBody: We love the new dashboard reports, but our finance team needs to export raw weekly metrics to CSV or XLS. Is there a roadmap for adding a direct export button?",
+    "raw_response": "{\"category\":\"FEATURE_REQUEST\",\"urgency\":\"LOW\",\"confidence\":0.92,\"suggested_reply\":\"Thanks for the suggestion! We\u2019re adding an export option to the dashboard soon\u2014stay tuned for updates.\",\"reasoning\":\"The ticket requests a new feature (exporting analytics data to CSV/Excel), which fits the FEATURE_REQUEST category. The request is not urgent or critical, so the urgency is set to LOW. Confidence is high (0.92) because the intent is clear.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-106",
+    "ticket_id": "TCK-106",
+    "timestamp": "2026-09-23T19:16:51.412646+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 277.35,
+    "prompt_payload": "Subject: Charged twice on invoice #INV-9921\nBody: I noticed two identical charges of $149 on my credit card statement from yesterday for invoice #INV-9921. Please issue a refund for the duplicate transaction as soon as possible.",
+    "raw_response": "{\"category\":\"BILLING\",\"urgency\":\"HIGH\",\"confidence\":0.97,\"suggested_reply\":\"We apologize for the duplicate charge. We'll investigate and issue a refund promptly.\",\"reasoning\":\"The user reports a duplicate charge on an invoice, which is a billing issue. Duplicate charges are time\u2011sensitive and require prompt resolution, so the urgency is set to HIGH.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-107",
+    "ticket_id": "TCK-107",
+    "timestamp": "2026-09-23T19:16:52.012315+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 599.64,
+    "prompt_payload": "Subject: API 403 Forbidden after automated card renewal\nBody: Our production webhooks stopped firing right after our monthly renewal processed this morning. The console shows HTTP 403 Forbidden on endpoint /v2/events, but our billing status says Active. Needs urgent check.",
+    "raw_response": "{\"category\":\"TECHNICAL\",\"urgency\":\"HIGH\",\"confidence\":0.95,\"suggested_reply\":\"We\u2019re investigating the 403 error on your webhook endpoint. Please verify your API key and endpoint permissions, and let us know if you need further assistance.\",\"reasoning\":\"The ticket reports a 403 Forbidden response on the /v2/events webhook after a card renewal, indicating a technical issue with the webhook integration. The user requests an urgent check, so the urgency is set to HIGH. The category is TECHNICAL because it involves a bug/error in the API/webhook system.\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "call_id": "CALL-TCK-108",
+    "ticket_id": "TCK-108",
+    "timestamp": "2026-09-23T19:16:52.897195+00:00",
+    "model": "openai/gpt-oss-20b",
+    "latency_ms": 884.85,
+    "prompt_payload": "Subject: Cancel subscription and change background color\nBody: I want to cancel my trial, but also the dark blue theme makes the text hard to read on desktop. Do you offer refunds for annual plans if canceled within 3 days?",
+    "raw_response": "{\"category\":\"BILLING\",\"urgency\":\"MEDIUM\",\"confidence\":0.92,\"suggested_reply\":\"Sure, we can cancel your trial and process a refund. Regarding the theme, we can change it to a lighter color for better readability.\",\"reasoning\":\"The user requests cancellation of a subscription and a refund, which falls under billing. The background color change is a feature request, but the primary concern is the billing issue, so the ticket is classified as BILLING.\"}",
+    "status": "SUCCESS"
+  }
+]
