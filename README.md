@@ -98,11 +98,3 @@ AI-Ticket-Triage/
 ├── .env.example
 └── output/             # Generated artifacts
 ```
-
-## Known limitations
-
-- A malformed or failed LLM response for one ticket aborts the whole batch; there is no per-ticket retry or fallback.
-- The model's category and urgency are only checked after the run (by `validator.py`), not at classification time.
-- Confidence is self-reported by the model and is not calibrated against labeled data.
-- `has_urgency_keywords` is computed during preprocessing but not used in routing.
-- Keyword matching is substring-based (for example "down" also matches "download").
