@@ -10,7 +10,7 @@ tickets.json ──► preprocess ──► classify ──► route ──► e
 
 | Stage | File | What it does |
 |-------|------|--------------|
-| 1. Preprocess | `preprocess.py` | Strips HTML, normalizes whitespace, computes word/char counts, flags urgency keywords, builds the prompt payload |
+| 1.Preprocess | `preprocess.py` | Strips HTML, normalizes whitespace, computes word/char counts, flags urgency keywords, builds the prompt payload |
 | 2. Classify | `classify.py` | Calls the LLM in JSON mode for category, urgency, confidence, suggested reply and reasoning; logs every call (latency, model, raw response) |
 | 3. Route | `router.py` | Sends a ticket to `HUMAN_REVIEW` if confidence is below the threshold or urgency is `CRITICAL`; otherwise `AUTOMATED` |
 | 4. Evaluate | `evaluator.py` | Writes per-ticket prediction comparison and summary metrics |
